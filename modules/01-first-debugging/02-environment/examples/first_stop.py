@@ -1,16 +1,10 @@
-"""Расчёт заказа: доставка зависит от суммы после скидки."""
+"""Стоимость комплекта с доставкой, суммы в рублях."""
 def main():
-    order = {"id": 103, "price": 1550, "quantity": 2, "discount": 300}
-    price = order["price"]
-    quantity = order["quantity"]
+    price = 450
+    quantity = 3
     subtotal = price * quantity
-    discount = order["discount"]
-    discounted_total = subtotal - discount
-    free_delivery_from = 3000
-    delivery = 250
-    if discounted_total >= free_delivery_from:
-        delivery = 0
-    total = discounted_total + delivery
+    delivery = 200
+    total = subtotal + delivery
     print(f"К оплате: {total}")  # FIRST_STOP
     return total
 
