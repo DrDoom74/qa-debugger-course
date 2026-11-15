@@ -3,7 +3,7 @@
 ## Примеры
 
 - [environment_check.py](examples/environment_check.py) — версия и путь текущего интерпретатора.
-- [first_stop.py](examples/first_stop.py) — первый запуск с обычной точкой остановки.
+- [first_stop.py](examples/first_stop.py) — первый запуск с обычной точкой останова.
 
 ## Практика
 
